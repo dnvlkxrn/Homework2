@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         pushButton.setTitle("Start", for: .normal)
+        pushButton.layer.cornerRadius = 20
         redLight.layer.cornerRadius = 0.5 * redLight.layer.frame.width
         yellowLight.layer.cornerRadius = redLight.layer.cornerRadius
         greenLight.layer.cornerRadius = redLight.layer.cornerRadius

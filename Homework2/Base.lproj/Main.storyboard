@@ -20,7 +20,7 @@
                                 <rect key="frame" x="146.66666666666666" y="81" width="100" height="715"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="5Jl-WM-RBL">
-                                        <rect key="frame" x="0.0" y="0.0" width="100" height="592.33333333333337"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="594"/>
                                         <subviews>
                                             <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b8E-tx-tqY">
                                                 <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
@@ -31,7 +31,7 @@
                                                 </constraints>
                                             </view>
                                             <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mmd-0W-YNv">
-                                                <rect key="frame" x="0.0" y="246.33333333333331" width="100" height="100"/>
+                                                <rect key="frame" x="0.0" y="247" width="100" height="100"/>
                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="100" id="578-mb-tzD"/>
@@ -40,7 +40,7 @@
                                                 <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                                             </view>
                                             <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e9I-Zx-YU9">
-                                                <rect key="frame" x="0.0" y="492.33333333333337" width="100" height="100"/>
+                                                <rect key="frame" x="0.0" y="494" width="100" height="100"/>
                                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="100" id="mNL-9z-K3l"/>
@@ -52,11 +52,13 @@
                                         <variation key="heightClass=compact-widthClass=regular" axis="horizontal"/>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h5w-RV-7tQ">
-                                        <rect key="frame" x="0.0" y="667.33333333333337" width="100" height="47.666666666666629"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Start">
-                                            <fontDescription key="titleFontDescription" type="system" pointSize="28"/>
-                                        </buttonConfiguration>
+                                        <rect key="frame" x="0.0" y="669" width="100" height="46"/>
+                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Start">
+                                            <color key="titleColor" systemColor="labelColor"/>
+                                        </state>
                                         <connections>
                                             <action selector="pushButtonDidTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="B5T-zL-ddM"/>
                                         </connections>
@@ -86,8 +88,14 @@
         </scene>
     </scenes>
     <resources>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
